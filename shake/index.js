@@ -4,11 +4,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    imageUrl: "",
-    pic: "redbag.png",
-    redbagHidden: false,
-    midbagHidden: true,
-    endbagHidden: true,
+    flag: true,
+    oFlag: true,
   },
 
   /**
@@ -20,14 +17,12 @@ Page({
     // });
     setTimeout(() => {
       this.setData({
-        redbagHidden: true,
-        midbagHidden: false,
+        flag: false,
       });
     }, 1000);
     setTimeout(() => {
       this.setData({
-        midbagHidden: true,
-        endbagHidden: false,
+        oFlag: false,
       });
     }, 2100);
   },
