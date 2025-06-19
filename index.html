@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .parent {
+        width: 500px;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        position: relative;
+      }
+
+      .child {
+        width: 100%;
+        height: 100px;
+        position: absolute;
+      }
+      .red {
+        background-color: red;
+      }
+
+      .green {
+        background-color: green;
+      }
+
+      .blue {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="child red"></div>
+      <div class="child green"></div>
+      <div class="child blue"></div>
+    </div>
+  </body>
+</html>

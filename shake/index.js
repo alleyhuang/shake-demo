@@ -20,12 +20,14 @@ Page({
     // });
     setTimeout(() => {
       this.setData({
-        pic: "mid.gif"
+        redbagHidden: true,
+        midbagHidden: false,
       });
     }, 1000);
     setTimeout(() => {
       this.setData({
-        pic: "endbag.png"
+        midbagHidden: true,
+        endbagHidden: false,
       });
     }, 2100);
   },

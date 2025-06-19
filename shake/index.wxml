@@ -1,17 +1,27 @@
 <view class="container">
-  <image
+  <!-- <image
     src="./image/{{pic}}"
     class="{{pic === 'redbag.png' ? 'zoom-animation' : ''}}"
     mode="widthFix"
     alt="动画图片"
-  />
-  <!-- <image
+  /> -->
+  <image
     src="./image/redbag.png"
     mode="widthFix"
     class="zoom-animation"
     alt="动画图片"
-    hidden="{{redbagHidden}}"
+    style="visibility: {{redbagHidden ? 'hidden' : 'visible'}};"
   />
-  <image src="./image/mid.gif" mode="widthFix" alt="动画图片" hidden="{{midbagHidden}}" />
-  <image src="./image/endbag.png" mode="widthFix" alt="动画图片" hidden="{{endbagHidden}}" /> -->
+  <image
+    src="./image/mid.gif"
+    mode="widthFix"
+    alt="动画图片"
+    style="visibility: {{midbagHidden ? 'hidden' : 'visible'}};"
+  />
+  <image
+    src="./image/endbag.png"
+    mode="widthFix"
+    alt="动画图片"
+    style="visibility: {{endbagHidden ? 'hidden' : 'visible'}};"
+  />
 </view>

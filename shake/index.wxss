@@ -27,9 +27,11 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  position: relative;
 }
 
 image {
   width: 100%;
   height: auto;
+  position: absolute;
 }
