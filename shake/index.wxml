@@ -1,0 +1,17 @@
+<view class="container">
+  <image
+    src="./image/{{pic}}"
+    class="{{pic === 'redbag.png' ? 'zoom-animation' : ''}}"
+    mode="widthFix"
+    alt="动画图片"
+  />
+  <!-- <image
+    src="./image/redbag.png"
+    mode="widthFix"
+    class="zoom-animation"
+    alt="动画图片"
+    hidden="{{redbagHidden}}"
+  />
+  <image src="./image/mid.gif" mode="widthFix" alt="动画图片" hidden="{{midbagHidden}}" />
+  <image src="./image/endbag.png" mode="widthFix" alt="动画图片" hidden="{{endbagHidden}}" /> -->
+</view>

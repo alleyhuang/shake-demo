@@ -1,0 +1,35 @@
+/* 定义上下抖动动画 */
+@keyframes zoomInOut {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(30rpx);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(10rpx);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* 应用动画到图片 */
+.zoom-animation {
+  animation: zoomInOut 1s ease-in-out infinite;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+image {
+  width: 100%;
+  height: auto;
+}
