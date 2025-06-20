@@ -10,18 +10,18 @@
     mode="widthFix"
     class="zoom-animation"
     alt="动画图片"
-    style="visibility: {{redbagHidden ? 'hidden' : 'visible'}};"
+    style="opacity: {{redbagHidden ? '0' : '1'}};"
   />
   <image
     src="./image/mid.gif"
     mode="widthFix"
     alt="动画图片"
-    style="visibility: {{midbagHidden ? 'hidden' : 'visible'}};"
+    style="opacity: {{midbagHidden ? '0' : '1'}};"
   />
   <image
     src="./image/endbag.png"
     mode="widthFix"
     alt="动画图片"
-    style="visibility: {{endbagHidden ? 'hidden' : 'visible'}};"
+    style="opacity: {{endbagHidden ? '0' : '1'}};"
   />
 </view>
