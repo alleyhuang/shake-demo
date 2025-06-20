@@ -8,20 +8,19 @@
   <image
     src="./image/redbag.png"
     mode="widthFix"
-    class="zoom-animation"
+    class="zoom-animation {{!redbagHidden ? 'show': 'hide'}}"
     alt="动画图片"
-    style="visibility: {{redbagHidden ? 'hidden' : 'visible'}};"
   />
   <image
     src="./image/mid.gif"
+    class="{{!midbagHidden ? 'show': 'hide'}}"
     mode="widthFix"
     alt="动画图片"
-    style="visibility: {{midbagHidden ? 'hidden' : 'visible'}};"
   />
   <image
+    class="{{!endbagHidden ? 'show': 'hide'}}"
     src="./image/endbag.png"
     mode="widthFix"
     alt="动画图片"
-    style="visibility: {{endbagHidden ? 'hidden' : 'visible'}};"
   />
 </view>

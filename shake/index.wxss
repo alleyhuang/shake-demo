@@ -31,7 +31,17 @@
 }
 
 image {
-  width: 100%;
-  height: 860rpx;
+  width: 750rpx;
+  height: 850rpx;
+  left: 0;
+  top: 0;
   position: absolute;
+}
+
+.show {
+  opacity: 1;
+}
+
+.hide {
+  opacity: 0;
 }

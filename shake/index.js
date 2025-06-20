@@ -29,7 +29,7 @@ Page({
         midbagHidden: true,
         endbagHidden: false,
       });
-    }, 2100);
+    }, 2200);
   },
 
   /**
